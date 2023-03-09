@@ -2,9 +2,21 @@
     display: flex;
     justify-content: space-between;
     padding-top: 3rem;
+    flex-direction: column;
 }
 
 .persona{
     display: flex;
     flex-direction: column;
+}
+
+@media screen and (min-width:768px) {
+    .personas{
+        flex-direction: row;
+    }
+
+    .persona{
+        margin-bottom: 2rem;
+    }
+    
 }
